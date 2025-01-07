@@ -21,7 +21,7 @@ Pull the project files from this repository to your local system:
 
 ```bash
 cd C:/xampp/htdocs
-
+Right-Click > New > New Folder > wordpress
 git clone https://github.com/khairihr/web_test_rubi.git wordpress
 ```
 
@@ -34,11 +34,14 @@ This will create a `wordpress` folder in your `htdocs` directory.
    - **Apache**
    - **MySQL**
 
-### 3. Create a Database
+### 3. Import the Database
 
 1. Open your browser and navigate to [phpMyAdmin](http://localhost/phpmyadmin).
 2. Create a new database named `wp_ruby`.
-3. No tables need to be imported as WordPress will create them during setup.
+3. Import the database file included in the repository:
+   - Navigate to the `database` folder in the repository.
+   - Select the `wp_ruby.sql` file.
+   - Click **Go** to import.
 
 ### 4. Configure `wp-config.php`
 
@@ -65,12 +68,6 @@ define('DB_HOST', 'localhost');
 
 3. Log in to the WordPress admin panel.
 
-### 6. Add Custom Content
-
-1. Add pages: Home, About Us, Services, Contact.
-2. Configure plugins such as SEO tools and WhatsApp integration.
-3. Design the layout using themes or custom CSS.
-
 ---
 
 ## Usage Guide
@@ -81,7 +78,7 @@ Once set up, the WordPress site can be accessed via:
 - **Frontend**: [http://localhost/wordpress](http://localhost/wordpress)
 - **Admin Panel**: [http://localhost/wordpress/wp-admin](http://localhost/wordpress/wp-admin)
 
-Use the username and password created during installation to log in.
+Use the username and password provided separately to log in.
 
 ### Development
 - Customize themes, plugins, and content via the admin panel.
