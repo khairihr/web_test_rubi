@@ -21,7 +21,7 @@ Pull the project files from this repository to your local system:
 
 ```bash
 cd C:/xampp/htdocs
-Right-Click > New > New Folder > wordpress
+
 git clone https://github.com/khairihr/web_test_rubi.git wordpress
 ```
 
